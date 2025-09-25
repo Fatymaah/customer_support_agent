@@ -1,4 +1,4 @@
-🤖 Customer Support Chatbot
+Customer Support Chatbot
 
 This project is a simple customer support chatbot built using:
 
