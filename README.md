@@ -1,17 +1,17 @@
-Customer Support Chatbot
+# Customer Support Chatbot
 
 This project is a simple customer support chatbot built using:
 
-LangChain
+- LangChain
  + LangGraph
 
-Groq LLM
+- Groq LLM
  (Llama 3.3 model)
 
-Gradio
+- Gradio
  for the interactive chat interface
 
-The bot can:
+# The bot can:
 
 Classify customer questions into categories: Billing, Technical Support, General Inquiry, Unknown
 
@@ -21,25 +21,25 @@ Generate responses depending on category
 
 Escalate to a human agent if frustration is detected
 
-🚀 Features
+# Features 🚀
 
 Categorization node for question type.
 
-Emotion detection node.
+- Emotion detection node.
 
-Category-specific response nodes:
+- Category-specific response nodes:
 
-Billing
+- Billing
 
-Technical Support
+- Technical Support
 
-General Inquiry
+- General Inquiry
 
-Escalation node for frustrated customers.
+- Escalation node for frustrated customers.
 
-Interactive chat-style Gradio UI.
+- Interactive chat-style Gradio UI.
 
-🛠️ Installation
+#  Installation 🛠️
 
 Clone the repo
 
@@ -66,13 +66,13 @@ langchain-groq
 python-dotenv
 gradio
 
-🔑 Environment Variables
+# Environment Variables 🔑 
 
 Create a .env file in the project root and add your Groq API key:
 
 GROQ_API_KEY=your_api_key_here
 
-▶️ Run the Chatbot
+# Run the Chatbot ▶️ 
 python app.py
 
 
