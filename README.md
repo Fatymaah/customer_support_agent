@@ -3,7 +3,7 @@
 This project is a simple customer support chatbot built using:
 
 - LangChain
- + LangGraph
+    - LangGraph
 
 - Groq LLM
  (Llama 3.3 model)
@@ -11,7 +11,7 @@ This project is a simple customer support chatbot built using:
 - Gradio
  for the interactive chat interface
 
-# The bot can:
+## The bot can:
 
 Classify customer questions into categories: Billing, Technical Support, General Inquiry, Unknown
 
@@ -29,11 +29,11 @@ Categorization node for question type.
 
 - Category-specific response nodes:
 
-- Billing
+  - Billing
 
-- Technical Support
+  - Technical Support
 
-- General Inquiry
+  - General Inquiry
 
 - Escalation node for frustrated customers.
 
@@ -50,9 +50,7 @@ cd customer-support-chatbot
 Create and activate virtual environment
 
 python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-
+source venv/bin/activate   
 
 Install dependencies
 
