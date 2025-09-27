@@ -43,19 +43,23 @@ Categorization node for question type.
 
 Clone the repo
 
+```bash
 git clone https://github.com/yourusername/customer-support-chatbot.git
 cd customer-support-chatbot
+```
 
 
 Create and activate virtual environment
 
+```
 python -m venv venv
-source venv/bin/activate   
+source venv/bin/activate
+```  
 
 Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 Example requirements.txt
 langgraph
 langchain
@@ -71,7 +75,9 @@ Create a .env file in the project root and add your Groq API key:
 GROQ_API_KEY=your_api_key_here
 
 # Run the Chatbot ▶️ 
+```
 python app.py
+```
 
 
 This will launch a Gradio chat interface in your browser at:
